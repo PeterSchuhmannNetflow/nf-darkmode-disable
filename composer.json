@@ -1,7 +1,8 @@
 {
     "name": "netflow/nf-darkmode-disable",
+    "license": "GPL-2.0-or-later",
     "type": "typo3-cms-extension",
-    "description": "base extension",
+    "description": "Disable dark mode in the TYPO3 backend or login screen only.",
     "authors": [
         {
             "name": "Peter Schuhmann",
@@ -21,7 +22,6 @@
         "typo3/cms-core": "^13.4"
     },
     "replace": {
-        "netflow/nf-darkmode-disable": "self.version",
         "typo3-ter/nf-darkmode-disable": "self.version"
     },
     "extra": {

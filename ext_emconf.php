@@ -2,7 +2,7 @@
 
 $EM_CONF['nf_darkmode_disable'] = [
     'title' => 'Darkmode Disable',
-    'description' => 'Disable dark mode in the TYPO3 backend.',
+    'description' => 'Disable dark mode in the TYPO3 backend or login screen only.',
     'category' => 'plugin',
     'author' => 'Peter Schuhmann',
     'author_email' => 'peter.schuhmann@netflow.digital',
