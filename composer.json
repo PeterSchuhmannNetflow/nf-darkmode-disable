@@ -1,0 +1,32 @@
+{
+    "name": "netflow/nf-darkmode-disable",
+    "type": "typo3-cms-extension",
+    "description": "base extension",
+    "authors": [
+        {
+            "name": "Peter Schuhmann",
+            "role": "Developer"
+        },
+        {
+            "name": "Philipp Ahlfeld",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Netflow\\NfDarkmodeDisable\\": "Classes"
+        }
+    },
+    "require": {
+        "typo3/cms-core": "^13.4"
+    },
+    "replace": {
+        "netflow/nf-darkmode-disable": "self.version",
+        "typo3-ter/nf-darkmode-disable": "self.version"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "nf_darkmode_disable"
+        }
+    }
+}

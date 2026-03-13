@@ -1,0 +1,3 @@
+# cat=basic/enable/010; type=boolean; label= Disable dark mode globally (backend and login page)
+disableGlobal =
+
